@@ -367,7 +367,6 @@ namespace Malinas_Marian_Proiect
                         ClientId = client.ClientId
                     };
                     ctx.Inchirieri.Add(inchiriere);
-                    MessageBox.Show("ceva");
                     ctx.SaveChanges();
                     BindDataGrid();
                 }
