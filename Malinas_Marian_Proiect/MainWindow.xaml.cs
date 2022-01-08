@@ -123,6 +123,7 @@ namespace Malinas_Marian_Proiect
                     break;
             }
             ReInitialize();
+            MessageBox.Show("Modificarea s-a facut cu succes!");
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
